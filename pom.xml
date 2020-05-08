@@ -125,6 +125,7 @@
                 <artifactId>tomee-maven-plugin</artifactId>
                 <version>${versions.tomee}</version>
                 <configuration>
+                    <!--t-->
                     <!-- From TomEE to TomEE+ to support the web services stack -->
                     <tomeeHttpPort>8000</tomeeHttpPort>
                     <tomeeClassifier>plus</tomeeClassifier>
