@@ -127,6 +127,7 @@
                     <!-- From TomEE to TomEE+ to support the web services stack -->
                     <tomeeClassifier>plus</tomeeClassifier>
                     <args>-Xmx512m -XX:PermSize=256m</args>
+                    <tomeeHttpPort>80</tomeeHttpPort>
                     <deployOpenEjbApplication>true</deployOpenEjbApplication>
                 </configuration>
             </plugin>
